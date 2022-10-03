@@ -1,0 +1,107 @@
+# Из https://github.com/github/gitignore/blob/master/Gradle.gitignore
+.градация
+/сборка/
+
+# Игнорировать конфигурацию графического интерфейса Gradle
+gradle-app.setting
+
+
+
+# Кэш проекта
+.gradletasknamecache
+
+# # Обойти https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/оболочка/gradle-wrapper.properties
+
+
+
+# Из https://github.com/github/gitignore/blob/master/Java.gitignore
+*.class
+
+# Мобильные инструменты для Java (J2ME)
+.mtj.tmp/
+
+# Файлы пакетов #
+* .jar
+*.war
+*.ear
+
+# журналы сбоев виртуальной машины, см. http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Избегайте игнорирования файла jar-оболочки Gradle (файлы .jar обычно игнорируются)
+!gradle-wrapper.jar
+
+# Из https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+# Охватывает IDE JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio и Webstorm
+# Ссылка: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Пользовательский материал:
+.idea/workspace.xml
+.idea/tasks.xml
+.идея/словари
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Конфиденциальные или файлы с большим оттоком:
+.idea/DataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/библиотеки
+
+# Плагин Mongo Explorer:
+.idea/mongoSettings.xml
+
+## Формат проекта на основе файлов:
+*.iws
+
+## Файлы, специфичные для плагина:
+
+# IntelliJ
+/выход/
+
+# плагин mpeltonen/sbt-idea
+.idea_модули/
+
+# Плагин JIRA
+atlassian-ide-plugin.xml
+
+ Плагин # Crashlytics (для Android Studio и IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.свойства
+crashlytics-build.properties
+fabric.properties
+
+
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+ Значок # должен заканчиваться двумя \r
+Значок
+
+
+# Эскизы
+._*
+
+# Файлы, которые могут отображаться в корне тома
+.Просмотр документов-V100
+.fseventsd
+. Прожектор-V100
+.Временные элементы
+.Мусорные баки
+.VolumeIcon.icns
+.com.apple.timemachine.не присутствуйте
+
+# Каталоги, потенциально созданные на удаленном общем ресурсе AFP
+.AppleDB
+.AppleDesktop
+Сетевая  папка корзины 
+Временные  элементы
+.apdisk
